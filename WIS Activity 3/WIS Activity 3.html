@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Insert data into the database</h2>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+ ID: <input type="text" name="id" required><br>
+ Username: <input type="text" name="username" required><br>
+ Email: <input type="text" name="email" required><br>
+ <input type="submit" name="submit" value="Submit">
+</form>
+</body>
+</html>
